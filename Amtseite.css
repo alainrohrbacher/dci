@@ -1,0 +1,54 @@
+body{background-image: url(Bilder/bg.png);
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    margin-top: 100px;
+       
+}
+
+
+p{border: 3px solid white;
+     border-radius: 25px;
+padding: 20px;
+/*    background-image: url(Bilder/bg.png);*/
+    background-color:rgba(25, 255, 255, 0.2);
+
+color: aliceblue;
+font-size: 23px;
+    font-family: sans-serif;
+    font-family: 'Indie Flower', cursive;
+    
+     width: 90%;
+    height: 90%;
+    max-width: 400px;   
+/*! um die breite zu minimieren, stopen
+    max-width: 500px;
+    /*ende*/
+    text-align:left;
+text-shadow: -3px 2px 3px black;
+box-shadow:9px 9px 10px black;}
+
+
+img{ width: 190px;
+    height:150px;
+    transform: rotate(90deg);
+float: left;
+    margin:auto;
+/*    margin-top: 8px;*/
+/*    margin-bottom: 10px;*/
+/*    margin-left: 20px;*/
+    border: 3px solid white;
+    box-shadow: 3px -3px 3px  black;
+    filter: sepia(1);
+     
+    }
+img:hover{ 
+    border: 3px solid white;
+    -webkit-filter:none;
+filter:sepia(0);
+    
+}
+a:hover{background-color:ghostwhite;
+    box-shadow: none;
+    color:gainsboro;
+    text-shadow:none;}
